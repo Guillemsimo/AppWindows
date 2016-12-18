@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="VisualTDRtest.exe" version="1.0.0.1" publicKeyToken="181641149d231c53" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="VisualTDRtest" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="VisualTDRtest.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la 
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Ice.dll" size="731552">
+      <assemblyIdentity name="Ice" version="3.6.3.0" publicKeyToken="CDD571ADE22F2F16" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>dSwDpIOY1YhYIYKS7EBJsjasIb9KmPolBUlI8zHkGJc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VisualTDRtest.exe" size="79856">
+      <assemblyIdentity name="VisualTDRtest" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>dSyTmvCi3LDWNVBAcRBVMF5/6W4KEsEhxB1jW4dkdyI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="VisualTDRtest.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-RL9B4KJ\guillem" issuerKeyHash="0fbeebfa077e7587030fbfb09b0c3e1058d5c8bc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>eYQmdVFP4QgsCcLwpWbum7T6ABqwui5ocV41bnrUjh4=</DigestValue></Reference></SignedInfo><SignatureValue>h9Pf9+QlCfcwJlzA0upaUhTdj9TY0ss2ucf+rjn6kjPBTgHU1g+rFpBlrc7UshnwBL8xyWlkidZEU2XR3luKq8KPklsXpGRrw2G7Kf5MRVxgtva/flqCV7TxcYtzfaTO18QNRUXz4RXpUGdGuh5t+DOONWroXWgD3GuRqc0eOoI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>l4NBp7w8pPGH78oBnFtQN2XzzEuUGLzenpzg6T0Uv2TfKq6Qjcc3R3bMGhSy8iN8On3jlrowiiAvf6KHrntZyTNBMfVf05iXO3JGsW3Olr+GunN8uSoljvrm31QbYKyii+75lfE85erygxLE48ZNlCR/gH9YKfBZ778qOKEnth8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1e8ed47a6e355e71682ebab01a00fab49bee66a5f0c2092c08e14f5175268479" Description="" Url=""><as:assemblyIdentity name="VisualTDRtest.exe" version="1.0.0.1" publicKeyToken="181641149d231c53" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-RL9B4KJ\guillem</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>EOC6d2NemYzEd3vuwMkbaasVphHDhhzEkFaPH8frKwA=</DigestValue></Reference></SignedInfo><SignatureValue>JIBmlcrkD4PmeagBUV93vlpmMPnx2KEWw932SMAz/wNvVni07IFFhwin7iOrEN5eArs2KGviJ7kat6Eih7aQ9+xTCR7ZqmRTPXdmn877A82BxI5rghydK7iiaHThXzjMUutpoC6jHE3HVF39i2x6GMM0w4urwpe0O/EQUUgOtxY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>l4NBp7w8pPGH78oBnFtQN2XzzEuUGLzenpzg6T0Uv2TfKq6Qjcc3R3bMGhSy8iN8On3jlrowiiAvf6KHrntZyTNBMfVf05iXO3JGsW3Olr+GunN8uSoljvrm31QbYKyii+75lfE85erygxLE48ZNlCR/gH9YKfBZ778qOKEnth8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQFSqoYjuMfoZNX48VmuECvjANBgkqhkiG9w0BAQsFADA5MTcwNQYDVQQDHi4ARABFAFMASwBUAE8AUAAtAFIATAA5AEIANABLAEoAXABnAHUAaQBsAGwAZQBtMB4XDTE2MTIxNTExNTExNloXDTE3MTIxNTE3NTExNlowOTE3MDUGA1UEAx4uAEQARQBTAEsAVABPAFAALQBSAEwAOQBCADQASwBKAFwAZwB1AGkAbABsAGUAbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAl4NBp7w8pPGH78oBnFtQN2XzzEuUGLzenpzg6T0Uv2TfKq6Qjcc3R3bMGhSy8iN8On3jlrowiiAvf6KHrntZyTNBMfVf05iXO3JGsW3Olr+GunN8uSoljvrm31QbYKyii+75lfE85erygxLE48ZNlCR/gH9YKfBZ778qOKEnth8CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBXhq5b9sMUhTa+/1K3qxoRIk7pSg3rGNxf/4DJc5EuACshtFDCmJlEhFGVA8lLmV1aoSPoCfVr8x9o52018UFQV3mUjU9gRUbjNrIDcO3WW6SvdJnnM6VFmCwZLqKN16RRk1JwvxA4hOCqETMPBOFUyV1KmZHryCXTkoUOqBSE2Q==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
